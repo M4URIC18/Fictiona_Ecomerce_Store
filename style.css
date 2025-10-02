@@ -1,0 +1,64 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* This css style belongs only to Contact information page */
+
+body {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 2rem;
+}
+
+div {
+    max-width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-bottom: 2rem;
+}
+.form-div {
+    display: flex;
+    justify-content: space-around;
+}
+
+h2 {
+    background-color: #81a53b;
+    font-weight: bold;
+    color: white;
+}
+
+img {
+    width: 25%;
+    margin: auto;
+}
+
+header {
+    position: fixed;
+    top: 0rem;
+    height: 3.4rem;
+    padding-top: 1rem;
+    width: 100%;
+    background-color: rgba(183, 225, 102, 0.86);
+    box-shadow: 0 1px 4px hsl(0 4% 15% / 10%);
+    z-index: 100;
+}
+
+#cart-icon {
+    font-size: 1.8rem;
+    cursor: pointer;
+    width: 1.8rem;
+    height: auto;
+    /*float: right; */
+    margin-right: 1rem;
+    position: fixed;
+    right: 0;
+}
+
+a {
+    color: black;
+}
+
+.title-contact {
+    padding: 70px;
+}
